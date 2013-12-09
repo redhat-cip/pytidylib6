@@ -60,14 +60,16 @@ the `PyTidyLib`_ web page.
 VERSION = "0.2.2"
 
 setup(
-    name="pytidylib",
+    name="pytidylib6",
     version=VERSION,
-    description="Python wrapper for HTML Tidy (tidylib)",
+    description="Python wrapper for HTML Tidy (tidylib), compatible with Python 2 and 3",
     long_description=longdesc,
-    author="Jason Stitt",
-    author_email="js@jasonstitt.com",
+    #author="Jason Stitt",
+    #author_email="js@jasonstitt.com",
+    author="Cyril Roelandt",
+    author_email="cyril.roelandt@enovance.com",
     url="http://countergram.com/open-source/pytidylib/",
-    download_url="http://cloud.github.com/downloads/countergram/pytidylib/pytidylib-%s.tar.gz" % VERSION,
+    download_url="https://github.com/enovance/pytidylib/releases/tag/%s" % VERSION,
     packages=['tidylib'],
     classifiers=[
           'Development Status :: 4 - Beta',
